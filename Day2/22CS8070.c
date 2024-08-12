@@ -49,6 +49,7 @@ void dfs(TreeNode* node, int* path, int depth, int z_turns, int last_turn,
         z_turns++;
         last_turn = 1;
     } else {
+     
         last_turn = 0;
     }
     
